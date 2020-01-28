@@ -9,7 +9,7 @@
         style="margin-bottom:40px"
         :class="`item ${item.category}`"
       >
-        <v-layout row justify-start wrap>
+        <v-layout row justify-start >
           <v-flex xs8 md4>
             <v-img contain class="white--text" height="200px" width="200px" :src="item.imageUrl"></v-img>
           </v-flex>
